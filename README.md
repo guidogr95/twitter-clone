@@ -2,7 +2,13 @@
 
 This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
 
-This project was created with node version 16.10.0
+```bash
+	This project was created with node version 16.10.0
+
+	In order to run it use yarn install && yarn run dev
+
+	The path used for api requests is defined in the file .env.local
+```
 
 ## Deploy your own
 
