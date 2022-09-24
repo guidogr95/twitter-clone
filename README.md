@@ -1,4 +1,4 @@
-# Wokring functionality
+# Working functionality
 
 1. Login / Signup
 2. Post tweets
