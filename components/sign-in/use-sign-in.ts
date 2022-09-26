@@ -14,7 +14,7 @@ export default function useSignIn() {
 		handleSignInWithGoogle
 	} = useAuth()
 
-	const handleSubmit = async (e: Event) => {
+	const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
 		e.preventDefault()
 		setIsLoading(true)
 		if (isSignup) {

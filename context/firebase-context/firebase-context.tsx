@@ -11,7 +11,7 @@ type Props = {
 type FirebaseContextReturnProps = {
   handleSignInWithGoogle: () => Promise<void>
   handleLogInWithEmailAndPassword: ({ email, password }: EmailLoginReq) => Promise<void>
-  registerWithEmailAndPassword: ({ email, password, name }: EmailSignUpReq) => Promise<void>
+  registerWithEmailAndPassword: ({ email, password, username }: EmailSignUpReq) => Promise<void>
   handleLogout: () => void
   auth: Auth
   db: Firestore
